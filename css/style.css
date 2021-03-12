@@ -6,7 +6,8 @@
 
 body {
   font-family: "Raleway", sans-serif;
-  font-size: 24px;
+  font-size: 18px;
+  color:antiquewhite;
 }
 nav {
   display: flex;
@@ -22,7 +23,7 @@ nav li {
 }
 
 h1,
-h2,
+h2, 
 h3,
 h4 {
   font-family: "KCTopia";
@@ -137,6 +138,15 @@ a:hover {
 }
 .pittock-page .content-box {
   background-color: #3b5067;
+}
+.council-page .content-box {
+  background-color: #163931;
+}
+.rocky-page .content-box {
+  background-color: #925c65;
+}
+.tabor-page .content-box {
+  background-color: #bc8d43;
 }
 @media only screen and (min-width: 768px) {
 }
