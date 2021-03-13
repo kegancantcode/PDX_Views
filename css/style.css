@@ -1,9 +1,11 @@
 /* Enter your Styles below! */
+* {box-sizing: border-box;}
 @font-face {
   font-family: "KCTopia";
   src: url("../fonts/KCTopia.otf") format("opentype");
 }
-
+.place-image img{height: 100%;}
+.place-image{overflow:hidden;}
 body {
   font-family: "Raleway", sans-serif;
   font-size: 18px;
@@ -77,17 +79,29 @@ a {
 a:hover {
   color: black;
 }
+.pittock-page a {color:antiquewhite;
 
+}
+.pittock-page a:hover {color:rgb(0, 0, 0);}
 .square-holder {
   display: grid;
+  grid-gap: 40px;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   width: 90%;
   margin: auto;
 }
 
 .square-holder div {
-  width: 300px;
-  height: 300px;
+  max-width: 300px;
+  max-height: 300px;
+  min-width: 200px;
+  min-height: 200px;
+}
+.square-holder p {
+  text-align: center;
+}
+.square-holder div p {
+  padding-top: 100px;
 }
 
 .square-holder div:nth-child(1) {
