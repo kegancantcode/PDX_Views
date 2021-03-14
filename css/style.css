@@ -74,15 +74,22 @@ img {
 
 a {
   color: rgb(41, 68, 158);
+  font-family: "KCTopia";
   text-decoration: none;
 }
 a:hover {
+  font-family: "KCTopia";
   color: black;
 }
-.pittock-page a {color:antiquewhite;
-
-}
+.pittock-page a {color:antiquewhite;}
+.council-page a {color:antiquewhite}
+.rocky-page a {color:antiquewhite}
+.tabor-page a {color:antiquewhite}
 .pittock-page a:hover {color:rgb(0, 0, 0);}
+.council-page a:hover {color:rgb(0, 0, 0);}
+.rocky-page a:hover {color:rgb(0, 0, 0);}
+.tabor-page a:hover {color:rgb(0, 0, 0);}
+
 .square-holder {
   display: grid;
   grid-gap: 40px;
@@ -101,20 +108,22 @@ a:hover {
   text-align: center;
 }
 .square-holder div p {
-  padding-top: 100px;
+  font-family: "KCTopia";
+  font-size: 54px;
+  padding-top: 80px;
 }
 
 .square-holder div:nth-child(1) {
-  background-color: #3b5067;
+  background-color:rgb(59, 80,103,.65);
 }
 .square-holder div:nth-child(2) {
-  background-color: #163931;
+  background-color:rgb(22, 57, 49,.65);
 }
 .square-holder div:nth-child(3) {
-  background-color: #925c65;
+  background-color: rgb(146, 92, 101,.65);
 }
 .square-holder div:nth-child(4) {
-  background-color: #bc8d43;
+  background-color: rgb(188, 141, 67,.65);
 }
 
 .grid {
@@ -126,7 +135,7 @@ a:hover {
 }
 
 .grid div {
-  background-color: #ccc;
+  background-color: antiquewhite;
   padding: 20px;
 }
 
@@ -151,7 +160,7 @@ a:hover {
   flex: 1;
 }
 .pittock-page .content-box {
-  background-color: #3b5067;
+  background-color: rgb(59, 80,103);
 }
 .council-page .content-box {
   background-color: #163931;
